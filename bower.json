@@ -1,0 +1,20 @@
+{
+  "name": "angular-app-structure",
+  "version": "0.0.0",
+  "authors": [
+    "Denis Stoyanov <stoyanov.gr@email.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.14",
+    "angular-ui-router": "~0.2.9"
+  }
+}

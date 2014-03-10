@@ -1,0 +1,13 @@
+<div class="col-lg-6">
+    <form name="userForm" role="form" ng-submit="edit.save(tempUser)">
+        <div class="form-group">
+            <label for="user-name">Name</label>
+            <input type="text" class="form-control" id="user-name" placeholder="Enter name" ng-model="tempUser.name">
+        </div>
+        <div class="form-group">
+            <label for="user-age">Age</label>
+            <input type="text" class="form-control" id="user-age" placeholder="Enter age" ng-model="tempUser.age">
+        </div>
+        <button type="submit" class="btn btn-default">Save</button>
+    </form>
+</div>

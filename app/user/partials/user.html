@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+    <div class="panel-heading">Users</div>
+    <table class="table">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+        <tr ng-repeat="user in users">
+            <td>{{ user.name }}</td>
+            <td>{{ user.age }}</td>
+            <td><a ui-sref=".edit({id: user.id})" class="btn btn-default">Edit</a></td>
+        </tr>
+    </table>
+</div>
+
+<div ui-view="userEditView"></div>
